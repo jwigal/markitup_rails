@@ -1,6 +1,8 @@
 = markitup_rails
 
-Description goes here.
+Markitup_rails is a Rails 3.1 engine that allows you to integrate the "MarkItUp":http://markitup.jaysalvat.com/home/ text editor into the asset pipeline.
+
+This uses the 1.1.12 release of Markitup, by "Jay Salvat":http://jaysalvat.com
 
 == Contributing to markitup_rails
  
@@ -12,8 +14,4 @@ Description goes here.
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
-== Copyright
-
-Copyright (c) 2011 Jeff Wigal. See LICENSE.txt for
-further details.
 
