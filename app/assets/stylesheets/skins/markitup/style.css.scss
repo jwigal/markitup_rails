@@ -1,7 +1,7 @@
-/* -------------------------------------------------------------------
 // markItUp! Universal MarkUp Engine, JQuery plugin
 // By Jay Salvat - http://markitup.jaysalvat.com/
-// ------------------------------------------------------------------*/
+// ------------------------------------------------------------------
+
 .markItUp * {
 	margin:0px; padding:0px;
 	outline:none;
@@ -18,7 +18,7 @@
 }
 .markItUpContainer  {
 	border:1px solid #3C769D;	
-	background:#FFF url(images/bg-container.png) repeat-x top left;
+	background:#FFF image-url("skins/markitup/bg-container.png") repeat-x top left;
 	padding:5px 5px 2px 5px;
 	font:11px Verdana, Arial, Helvetica, sans-serif;
 }
@@ -28,7 +28,7 @@
 	border:3px solid #3C769D;
 	width:643px;
 	height:320px;
-	background:#FFF url(images/bg-editor.png) no-repeat;
+	background:#FFF image-url("skins/markitup/bg-editor.png") no-repeat;
 	clear:both;
 	line-height:18px;
 	overflow:auto;
@@ -50,11 +50,13 @@
 	width:22px; height:5px;
 	margin-left:auto;
 	margin-right:auto;
-	background-image:url(images/handle.png);
+	background-image: image-url("skins/markitup/handle.png");
 	cursor:n-resize;
 }
+
 /***************************************************************************************/
 /* first row of buttons */
+
 .markItUpHeader ul li	{
 	list-style:none;
 	float:left;
@@ -67,7 +69,7 @@
 	display:block;
 }
 .markItUpHeader ul .markItUpDropMenu {
-	background:transparent url(images/menu.png) no-repeat 115% 50%;
+	background:transparent image-url("skins/markitup/menu.png") no-repeat 115% 50%;
 	margin-right:5px;
 }
 .markItUpHeader ul .markItUpDropMenu li {
@@ -85,6 +87,7 @@
 	margin:0px;
 }
 /* next rows of buttons */
+
 .markItUpHeader ul ul {
 	display:none;
 	position:absolute;
@@ -98,9 +101,10 @@
 	border-bottom:1px solid #3C769D;
 }
 .markItUpHeader ul ul .markItUpDropMenu {
-	background:#F5F5F5 url(images/submenu.png) no-repeat 100% 50%;
+	background:#F5F5F5 image-url("skins/markitup/submenu.png") no-repeat 100% 50%;
 }
 /* next rows of buttons */
+
 .markItUpHeader ul ul ul {
 	position:absolute;
 	top:-1px; left:150px;
@@ -129,19 +133,20 @@
 	background-color:#3C769D;
 }
 /***************************************************************************************/
+
 .html .markItUpEditor {
-	background-image:url(images/bg-editor-html.png);
+	background-image: image-url("skins/markitup/bg-editor-html.png");
 }
 .markdown .markItUpEditor {
-	background-image:url(images/bg-editor-markdown.png);
+	background-image: image-url("skins/markitup/bg-editor-markdown.png");
 }
 .textile .markItUpEditor {
-	background-image:url(images/bg-editor-textile.png);
+	background-image: image-url("skins/markitup/bg-editor-textile.png");
 }
 .bbcode .markItUpEditor {
-	background-image:url(images/bg-editor-bbcode.png);
+	background-image: image-url("skins/markitup/bg-editor-bbcode.png");
 }
 .wiki .markItUpEditor,
 .dotclear .markItUpEditor {
-	background-image:url(images/bg-editor-wiki.png);
+	background-image: image-url("skins/markitup/bg-editor-wiki.png");
 }

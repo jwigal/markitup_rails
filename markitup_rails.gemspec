@@ -19,11 +19,46 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "app/assets/images/sets/default/bold.png",
+    "app/assets/images/sets/default/clean.png",
+    "app/assets/images/sets/default/image.png",
+    "app/assets/images/sets/default/italic.png",
+    "app/assets/images/sets/default/link.png",
+    "app/assets/images/sets/default/list-bullet.png",
+    "app/assets/images/sets/default/list-numeric.png",
+    "app/assets/images/sets/default/picture.png",
+    "app/assets/images/sets/default/preview.png",
+    "app/assets/images/sets/default/stroke.png",
+    "app/assets/images/skins/markitup/bg-container.png",
+    "app/assets/images/skins/markitup/bg-editor-bbcode.png",
+    "app/assets/images/skins/markitup/bg-editor-dotclear.png",
+    "app/assets/images/skins/markitup/bg-editor-html.png",
+    "app/assets/images/skins/markitup/bg-editor-json.png",
+    "app/assets/images/skins/markitup/bg-editor-markdown.png",
+    "app/assets/images/skins/markitup/bg-editor-textile.png",
+    "app/assets/images/skins/markitup/bg-editor-wiki.png",
+    "app/assets/images/skins/markitup/bg-editor-xml.png",
+    "app/assets/images/skins/markitup/bg-editor.png",
+    "app/assets/images/skins/markitup/handle.png",
+    "app/assets/images/skins/markitup/menu.png",
+    "app/assets/images/skins/markitup/submenu.png",
+    "app/assets/images/skins/simple/handle.png",
+    "app/assets/images/skins/simple/menu.png",
+    "app/assets/images/skins/simple/submenu.png",
+    "app/assets/javascripts/jquery.markitup.js",
+    "app/assets/javascripts/sets/default/set.js",
+    "app/assets/stylesheets/sets/default/style.css",
+    "app/assets/stylesheets/skins/markitup/style.css",
+    "app/assets/stylesheets/skins/simple/style.css",
+    "app/assets/stylesheets/templates/preview.css",
+    "lib/engine.rb",
     "lib/markitup_rails.rb",
+    "markitup_rails.gemspec",
     "test/helper.rb",
     "test/test_markitup_rails.rb"
   ]
@@ -38,12 +73,14 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<rails>, ["~> 3.1"])
+      s.add_runtime_dependency(%q<bluecloth>, [">= 0"])
       s.add_development_dependency(%q<shoulda>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
     else
       s.add_dependency(%q<rails>, ["~> 3.1"])
+      s.add_dependency(%q<bluecloth>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.0"])
       s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
@@ -51,6 +88,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rails>, ["~> 3.1"])
+    s.add_dependency(%q<bluecloth>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.0"])
     s.add_dependency(%q<jeweler>, ["~> 1.6.4"])

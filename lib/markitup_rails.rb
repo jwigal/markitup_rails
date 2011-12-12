@@ -12,3 +12,4 @@ module MarkitupRails
 
 end
 require 'engine'
+require 'bluecloth'

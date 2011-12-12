@@ -12,3 +12,4 @@ group :development do
   gem "rcov", ">= 0"
 end
 gem "rails", "~> 3.1"
+gem "bluecloth"
