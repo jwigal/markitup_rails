@@ -1,5 +1,6 @@
 class Markitup::ParsersController < ApplicationController
   def markdown
-    render :text => BlueCloth.new(params[:data]).to_html
+    @markitup =  BlueCloth.new(params[:data]).to_html
+    render :layout => false
   end
 end
