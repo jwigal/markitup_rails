@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeff Wigal"]
-  s.date = %q{2011-12-11}
+  s.date = %q{2011-12-19}
   s.description = %q{Rails 3.1 engine that allows you to integrate the markItUp editor into the asset pipeline}
   s.email = %q{jeff@assignr.com}
   s.extra_rdoc_files = [
@@ -34,6 +34,21 @@ Gem::Specification.new do |s|
     "app/assets/images/sets/default/picture.png",
     "app/assets/images/sets/default/preview.png",
     "app/assets/images/sets/default/stroke.png",
+    "app/assets/images/sets/markdown/bold.png",
+    "app/assets/images/sets/markdown/code.png",
+    "app/assets/images/sets/markdown/h1.png",
+    "app/assets/images/sets/markdown/h2.png",
+    "app/assets/images/sets/markdown/h3.png",
+    "app/assets/images/sets/markdown/h4.png",
+    "app/assets/images/sets/markdown/h5.png",
+    "app/assets/images/sets/markdown/h6.png",
+    "app/assets/images/sets/markdown/italic.png",
+    "app/assets/images/sets/markdown/link.png",
+    "app/assets/images/sets/markdown/list-bullet.png",
+    "app/assets/images/sets/markdown/list-numeric.png",
+    "app/assets/images/sets/markdown/picture.png",
+    "app/assets/images/sets/markdown/preview.png",
+    "app/assets/images/sets/markdown/quotes.png",
     "app/assets/images/skins/markitup/bg-container.png",
     "app/assets/images/skins/markitup/bg-editor-bbcode.png",
     "app/assets/images/skins/markitup/bg-editor-dotclear.png",
@@ -52,10 +67,15 @@ Gem::Specification.new do |s|
     "app/assets/images/skins/simple/submenu.png",
     "app/assets/javascripts/jquery.markitup.js",
     "app/assets/javascripts/sets/default/set.js",
+    "app/assets/javascripts/sets/markdown/set.js",
     "app/assets/stylesheets/sets/default/style.css",
-    "app/assets/stylesheets/skins/markitup/style.css",
-    "app/assets/stylesheets/skins/simple/style.css",
+    "app/assets/stylesheets/sets/markdown/style.css",
+    "app/assets/stylesheets/skins/markitup/style.css.scss",
+    "app/assets/stylesheets/skins/simple/style.css.scss",
     "app/assets/stylesheets/templates/preview.css",
+    "app/controllers/markitup/parsers_controller.rb",
+    "app/views/markitup/parsers/markdown.html.erb",
+    "config/routes.rb",
     "lib/engine.rb",
     "lib/markitup_rails.rb",
     "markitup_rails.gemspec",
