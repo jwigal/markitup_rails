@@ -1,8 +1,78 @@
 = markitup_rails
 
-Markitup_rails is a Rails 3.1 engine that allows you to integrate the "MarkItUp":http://markitup.jaysalvat.com/home/ text editor into the asset pipeline.
+Markitup_rails is a Rails 3.1 engine that allows you to integrate the {MarkItUp}[http://markitup.jaysalvat.com/home/] text editor into the asset pipeline.
 
-This uses the 1.1.12 release of Markitup, by "Jay Salvat":http://jaysalvat.com
+This uses the 1.1.12 release of Markitup, by {Jay Salvat}[http://jaysalvat.com]
+
+This engine allows you to add in the CSS and Javascript as written in the MarkItUp plugin. I would strongly recommend that you read the documentation tha comes with MarkItUp.
+
+This engine includes the following MarkItUp elements:
+
+* MarkItUp images and stylesheets
+* MarkItUp javascript
+* a MarkItUp set for Markdown 
+
+MarkItUp support a variety of markup parsers, however, this plugin only includes support for Markdown and HTML.
+Pull requests are welcome!
+
+= Usage
+
+Add the markitup_rails gem to your Gemfile.  In Gemfile:
+
+    gem "markitup_rails"
+
+== Markdown
+
+    /* app/assets/stylesheets/application.css */
+    /* the following directives will include the markitup CSS */
+    /* the skins/markitup CSS will define how the text area will look */
+    /* the sets/markdown CSS defines the markdown-specific buttons */
+
+    /*
+    *= require skins/markitup/style.css
+    *= require sets/markdown/style.css
+    */
+
+    // in app/assets/javascripts/application.js
+
+    // include the main MarkItUp javascript
+    //= require jquery.markitup
+    
+    // include a set, which defines the javascript rules for the particular parser. Markdown is included with this:
+    // The sets/markdown/set.js file will define a Javascript variable called "myMarkdownSettings".
+    //= require ./sets/markdown/set.js
+
+    $(document).ready(function(){
+      $("textarea").markItUp(myMarkdownSettings);
+    });
+
+== HTML
+
+    /* app/assets/stylesheets/application.css */
+    /* the following directives will include the markitup CSS */
+    /* the skins/markitup CSS will define how the text area will look */
+    /* the sets/markdown CSS defines the markdown-specific buttons */
+
+    /*
+    *= require skins/markitup/style.css
+    *= require sets/default/style.css
+    */
+
+    // in app/assets/javascripts/application.js
+
+    // include the main MarkItUp javascript
+    //= require jquery.markitup
+
+    // include a set, which defines the javascript rules for the particular parser. 
+    // The sets/default/set.js file will define a Javascript variable called "mySettings".
+    //= require ./sets/default/set.js
+
+    $(document).ready(function(){
+      $("textarea").markItUp(mySettings);
+    });
+
+
+The engine also comes with a simple controller that MarkItUp can send text to your application, and return a response parsed with BlueCloth, and render a preview using Ajax.
 
 == Contributing to markitup_rails
  
