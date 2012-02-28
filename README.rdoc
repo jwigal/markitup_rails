@@ -28,10 +28,8 @@ Add the markitup_rails gem to your Gemfile.  In Gemfile:
     /* the skins/markitup CSS will define how the text area will look */
     /* the sets/markdown CSS defines the markdown-specific buttons */
 
-    /*
-    *= require skins/markitup/style.css
-    *= require sets/markdown/style.css
-    */
+    @import "skins/markitup/style";
+    @import "sets/markdown/style";
 
     // in app/assets/javascripts/application.js
 
@@ -53,9 +51,8 @@ Add the markitup_rails gem to your Gemfile.  In Gemfile:
     /* the skins/markitup CSS will define how the text area will look */
     /* the sets/markdown CSS defines the markdown-specific buttons */
 
-    /*
-    *= require skins/markitup/style.css
-    *= require sets/default/style.css
+    @import "skins/markitup/style"
+    @import "sets/default/style"
     */
 
     // in app/assets/javascripts/application.js

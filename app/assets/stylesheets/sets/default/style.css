@@ -3,32 +3,32 @@
 // By Jay Salvat - http://markitup.jaysalvat.com/
 // ------------------------------------------------------------------*/
 .markItUp .markItUpButton1 a {
-	background-image:url(bold.png);
+	background-image:image-url("sets/default/bold.png");
 }
 .markItUp .markItUpButton2 a {
-	background-image:url(italic.png);
+	background-image:image-url("sets/default/italic.png");
 }
 .markItUp .markItUpButton3 a {
-	background-image:url(stroke.png);
+	background-image:image-url("sets/default/stroke.png");
 }
 
 .markItUp .markItUpButton4 a {
-	background-image:url(list-bullet.png); 
+	background-image:image-url("sets/default/list-bullet.png"); 
 }
 .markItUp .markItUpButton5 a {
-	background-image:url(list-numeric.png);
+	background-image:image-url("sets/default/list-numeric.png");
 }
 
 .markItUp .markItUpButton6 a {
-	background-image:url(picture.png); 
+	background-image:image-url("sets/default/picture.png"); 
 }
 .markItUp .markItUpButton7 a {
-	background-image:url(link.png);
+	background-image:image-url("sets/default/link.png");
 }
 
 .markItUp .markItUpButton8 a {
-	background-image:url(clean.png);
+	background-image:image-url("sets/default/clean.png");
 }
 .markItUp .preview a {
-	background-image:url(preview.png);
+	background-image:image-url("sets/default/preview.png");
 }
