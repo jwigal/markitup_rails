@@ -85,7 +85,8 @@ The engine also comes with a simple controller that MarkItUp can send text to yo
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
 == Contributors
-* {Ze Jin}:[http://www.jinze.info/]
+
+Thanks to {Ze Jin}:[http://www.jinze.info/]
 
 == License
 
