@@ -86,7 +86,7 @@ The engine also comes with a simple controller that MarkItUp can send text to yo
 
 == Contributors
 
-Thanks to {Ze Jin}:[http://www.jinze.info/]
+Ze Jin, http://www.jinze.info/
 
 == License
 
