@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{markitup_rails}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Jeff Wigal"]
-  s.date = %q{2012-01-22}
+  s.date = %q{2012-03-06}
   s.description = %q{Rails 3.1 engine that allows you to integrate the markItUp editor into the asset pipeline}
   s.email = %q{jeff@assignr.com}
   s.extra_rdoc_files = [
@@ -68,8 +68,8 @@ Gem::Specification.new do |s|
     "app/assets/javascripts/jquery.markitup.js",
     "app/assets/javascripts/sets/default/set.js",
     "app/assets/javascripts/sets/markdown/set.js",
-    "app/assets/stylesheets/sets/default/style.css",
-    "app/assets/stylesheets/sets/markdown/style.css",
+    "app/assets/stylesheets/sets/default/style.css.scss",
+    "app/assets/stylesheets/sets/markdown/style.css.scss",
     "app/assets/stylesheets/skins/markitup/style.css.scss",
     "app/assets/stylesheets/skins/simple/style.css.scss",
     "app/assets/stylesheets/templates/preview.css",
