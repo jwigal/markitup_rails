@@ -46,6 +46,31 @@ Add the markitup_rails gem to your Gemfile.  In Gemfile:
       $("textarea").markItUp(myMarkdownSettings);
     });
 
+== BBCode
+
+    /* app/assets/stylesheets/application.css */
+    /* the following directives will include the markitup CSS */
+    /* the skins/markitup CSS will define how the text area will look */
+    /* the sets/bbcode CSS defines the bbcode-specific buttons */
+
+    /*
+    *= require skins/markitup/style.css
+    *= require sets/bbcode/style.css
+    */
+
+    // in app/assets/javascripts/application.js
+
+    // include the main MarkItUp javascript
+    //= require jquery.markitup
+
+    // include a set, which defines the javascript rules for the particular parser. BBCode is included with this:
+    // The sets/bbcode/set.js file will define a Javascript variable called "myBBCodeSettings".
+    //= require ./sets/bbcode/set.js
+
+    $(document).ready(function(){
+      $("textarea").markItUp(myBBCodeSettings);
+    });
+
 == HTML
 
     /* app/assets/stylesheets/application.css */
