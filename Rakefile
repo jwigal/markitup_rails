@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{Rails 3.1 engine that allows you to integrate the markItUp editor into the asset pipeline}
   gem.description = %Q{Rails 3.1 engine that allows you to integrate the markItUp editor into the asset pipeline}
   gem.email = "jeff@assignr.com"
-  gem.authors = ["Jeff Wigal"]
+  gem.authors = ["Jeff Wigal", "N4th4", "Ze Jin"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new

@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/marcandre/bb-ruby.git
+  revision: 77a4b3c63e06e053cfbaf04331d9dc31f505c247
+  specs:
+    bb-ruby (0.9.7)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -92,8 +98,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bb-ruby!
   bluecloth
-  bundler (~> 1.0.0)
+  bundler
   jeweler (~> 1.6.4)
   rails (~> 3.1)
   rcov
