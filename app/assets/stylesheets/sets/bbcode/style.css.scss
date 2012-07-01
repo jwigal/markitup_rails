@@ -1,0 +1,93 @@
+/* -------------------------------------------------------------------
+// markItUp!
+// By Jay Salvat - http://markitup.jaysalvat.com/
+// ------------------------------------------------------------------*/
+.bbcode .markItUpButton1 a	{
+	background-image:image-url("sets/bbcode/bold.png");
+}
+.bbcode .markItUpButton2 a	{
+	background-image:image-url("sets/bbcode/italic.png");
+}
+.bbcode .markItUpButton3 a	{
+	background-image:image-url("sets/bbcode/underline.png");
+}
+.bbcode .markItUpButton4 a	{
+	background-image:image-url("sets/bbcode/picture.png");
+}
+.bbcode .markItUpButton5 a	{
+	background-image:image-url("sets/bbcode/link.png");
+}
+.bbcode .markItUpButton7 a	{
+	background-image:image-url("sets/bbcode/fonts.png");
+}
+.bbcode .markItUpButton8 a	{
+	background-image:image-url("sets/bbcode/list-bullet.png");
+}
+.bbcode .markItUpButton9 a	{
+	background-image:image-url("sets/bbcode/list-numeric.png");
+}
+.bbcode .markItUpButton10 a	{
+	background-image:image-url("sets/bbcode/list-item.png");
+}
+.bbcode .markItUpButton11 a	{
+	background-image:image-url("sets/bbcode/quotes.png");
+}
+.bbcode .markItUpButton12 a	{
+	background-image:image-url("sets/bbcode/code.png");
+}
+.bbcode .clean a {
+	background-image:image-url("sets/bbcode/clean.png");
+}
+.bbcode .preview a {
+	background-image:image-url("sets/bbcode/preview.png");
+}
+.bbcode .colors a {
+	background-image:image-url("sets/bbcode/colors.png");
+}
+	.bbcode .colors ul {
+		width:81px;
+		padding:1px;
+	}
+	.bbcode .colors  li {
+		border:1px solid white;
+		width:25px;     height:25px;
+		overflow:hidden;
+		padding:0px; margin:0px;
+		float:left;
+	}
+	.bbcode .colors ul a {
+		width:25px;     height:25px;
+	}
+	.bbcode .colors ul a:hover {
+		background-color:none;
+	}
+
+	.bbcode .colors .col1-1 a {
+		background:yellow;
+	}
+	.bbcode .colors .col1-2 a {
+		background:orange;
+	}
+	.bbcode .colors .col1-3 a {
+		background:red;
+	}
+
+	.bbcode .colors .col2-1 a {
+		background:blue;
+	}
+	.bbcode .colors .col2-2 a {
+		background:purple;
+	}
+	.bbcode .colors .col2-3 a {
+		background:green;
+	}
+
+	.bbcode .colors .col3-1 a {
+		background:white;
+	}
+	.bbcode .colors .col3-2 a {
+		background:gray;
+	}
+	.bbcode .colors .col3-3 a {
+		background:black;
+	}

@@ -13,3 +13,4 @@ module MarkitupRails
 end
 require 'engine'
 require 'bluecloth'
+require 'bb-ruby'
