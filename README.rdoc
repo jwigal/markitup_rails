@@ -2,7 +2,7 @@
 
 Markitup_rails is a Rails 3.1 engine that allows you to integrate the {MarkItUp}[http://markitup.jaysalvat.com/home/] text editor into the asset pipeline.
 
-This uses the 1.1.12 release of Markitup, by {Jay Salvat}[http://jaysalvat.com]
+This uses the 1.1.14 release of Markitup, by {Jay Salvat}[http://jaysalvat.com]
 
 This engine allows you to add in the CSS and Javascript as written in the MarkItUp plugin. I would strongly recommend that you read the documentation tha comes with MarkItUp.
 
