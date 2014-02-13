@@ -127,7 +127,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rcov>, [">= 0"])
     end
   else
-    s.add_dependency(%q<rails>, ["~> 3.1"])
+    s.add_dependency(%q<rails>, [">= 3.1"])
     s.add_dependency(%q<bluecloth>, [">= 0"])
     s.add_dependency(%q<bb-ruby>, [">= 0"])
     s.add_dependency(%q<shoulda>, [">= 0"])
