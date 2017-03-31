@@ -118,7 +118,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
       s.add_development_dependency(%q<rcov>, [">= 0"])
     else
-      s.add_dependency(%q<rails>, ["~> 3.1"])
+      s.add_dependency(%q<rails>, [">= 3.1"])
       s.add_dependency(%q<bluecloth>, [">= 0"])
       s.add_dependency(%q<bb-ruby>, [">= 0"])
       s.add_dependency(%q<shoulda>, [">= 0"])
