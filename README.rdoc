@@ -4,6 +4,8 @@ Markitup_rails is a Rails 3.1 engine that allows you to integrate the {MarkItUp}
 
 This uses the 1.1.14 release of Markitup, by {Jay Salvat}[http://jaysalvat.com]
 
+== Note: This project is not actively maintained. 
+
 This engine allows you to add in the CSS and Javascript as written in the MarkItUp plugin. I would strongly recommend that you read the documentation tha comes with MarkItUp.
 
 This engine includes the following MarkItUp elements:
